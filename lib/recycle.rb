@@ -17,7 +17,7 @@ first_recycle_bin =  {
 
 #1. Define a method `address`, that takes a hash as an argument.
 #This method should return the value of the address key in the hash.
-def address(first_recycle_bin)
+def address(third_recycle_bin)
   third_recycle_bin = {
   "address"=>"Arthur Ave & 187 St",
   "site_type"=>"Outdoor",
@@ -25,7 +25,7 @@ def address(first_recycle_bin)
   "borough"=>"Bronx",
   "latitude"=>"40.85557",
   "park_site_name"=>"Arthur Ave & E 187 St"}
-first_recycle_bin["address"]
+third_recycle_bin["address"]
 end
 #2. Define a method called `borough` that takes a hash as an argument.
 # This method should return the value of the borough key in the hash.
