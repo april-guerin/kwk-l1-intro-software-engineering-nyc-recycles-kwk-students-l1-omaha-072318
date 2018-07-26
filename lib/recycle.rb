@@ -22,11 +22,15 @@ def address(recycle_bin)
 end
 #2. Define a method called `borough` that takes a hash as an argument.
 # This method should return the value of the borough key in the hash.
-
+def borough(recycle_bin)
+  recycle_bin["borough"]
+end
 #3. Define a method called `all_keys` that takes a hash as an argument.
 #This method should print out each key in the hash. 
 #You should use the `each_key` method to iterate over your hash and print out each key.
-
+def all_keys
+  recycle_bin.keys
+end
 #4. Define a method called `all_data` that takes a hash as an argument.
 #This method should print out each value in the hash.
 #You should use the `each_value` method to iterate over your hash and print out each value.
