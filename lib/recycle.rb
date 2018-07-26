@@ -29,7 +29,7 @@ end
 #This method should print out each key in the hash. 
 #You should use the `each_key` method to iterate over your hash and print out each key.
 def all_keys
-  recycle_bin.keys
+  puts recycle_bin.keys
 end
 #4. Define a method called `all_data` that takes a hash as an argument.
 #This method should print out each value in the hash.
